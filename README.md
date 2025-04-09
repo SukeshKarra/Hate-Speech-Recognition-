@@ -1,10 +1,10 @@
 Hate Speech Detection
 
-##Overview
+Overview
 
 This project focuses on detecting hate speech in text data using machine learning techniques. The aim is to classify whether a given text contains hate speech, offensive language, or neither. The model can help in monitoring social media, comments, and online platforms for harmful content.
 
-## Table of Contents
+ Table of Contents
 
 - [Overview](#overview)
 - [Project Structure](#project-structure)
@@ -16,7 +16,7 @@ This project focuses on detecting hate speech in text data using machine learnin
 - [Contributing](#contributing)
 - [License](#license)
 
- ##Project Structure
+ Project Structure
 
 ```
 .
@@ -38,7 +38,7 @@ This project focuses on detecting hate speech in text data using machine learnin
 └── LICENSE                 # License file
 ```
 
-##Dataset
+Dataset
 
 The dataset used for this project is synthetic data that contains the following columns:
 
@@ -51,7 +51,7 @@ The dataset used for this project is synthetic data that contains the following 
 
 The dataset consists of 25,000 rows and is preprocessed to remove duplicates and irrelevant characters.
 
-## Models
+ Models
 
 Several machine learning models were used for classification, including:
 
@@ -84,27 +84,27 @@ These models were trained using the dataset mentioned above, and their performan
    pip install -r requirements.txt
    ```
 
-## Usage
+ Usage
 
-1. **Data Preprocessing**: Before training the model, you need to preprocess the data. Use the following command to run the preprocessing script:
+1. Data Preprocessing: Before training the model, you need to preprocess the data. Use the following command to run the preprocessing script:
 
    ```bash
    python src/data_preprocessing.py
    ```
 
-2. **Model Training**: Train the machine learning models by running the model training script:
+2. Model Training: Train the machine learning models by running the model training script:
 
    ```bash
    python src/model.py
    ```
 
-3. **Prediction**: To classify new data, use the trained model to make predictions:
+3. Prediction: To classify new data, use the trained model to make predictions:
 
    ```bash
    python src/predict.py --input "path_to_input_data"
    ```
 
-## Results
+ Results
 
 The best-performing model achieved an accuracy of **X%**. Detailed results of the model's performance can be found in the [Results](results.md) file.
 
@@ -114,7 +114,7 @@ Metrics used for evaluation include:
 - Recall
 - F1-score
 
-## Contributing
+ Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -125,7 +125,7 @@ Contributions are welcome! Please follow these steps:
 5. Push to the branch (`git push origin feature-branch`).
 6. Open a pull request.
 
-## License
+ License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
